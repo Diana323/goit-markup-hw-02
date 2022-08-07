@@ -1,6 +1,56 @@
-.body
-{font-family: sans-serif;}
-{background-color: F5F5F5;}
+:root{
+    --color: #212121;
+    --color: #2196F3;
+    --color: #FFFFFF;}
+body{
+font-family:'Roboto';
+sans-serif:}
+
+.header{
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    color: #212121
+}
+
+.header-logo span{
+    font-family:Raleway; color: #212121; }
+.logo span{
+    color: #2196F3;}
+a.logo{
+    font-family: Raleway; color:#212121}
 
 
+.nav :focus,.nav :hover{
+    color: #2196F3;
+    list-style: none;}
+.site-nav :focus,.site-nav :hover{color: #2196F3; list-style: none;}
+.section button{
+    list-style: none; color: aqua;}
+.section >h1 { display: none;}
 
+.section>h2{display: none;}
+.button .test-link {
+position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+    background: #2196F3;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+   
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;}
