@@ -16,7 +16,8 @@ body {
 
 }
 
-.dec-none {
+
+.dec-none{
     text-decoration: none;
     color: var(--main-color);
 }
@@ -26,9 +27,7 @@ body {
 .page-title{
     background-color:#2F303A}
 
- .text-align: center;
-
-    .title{position: absolute;
+.title .text-align{position: absolute;
         width: 696px;
         height: 120px;
         left: 452px;
@@ -44,16 +43,15 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-    
         color: #FFFFFF;}
 
     
-        .button .test-link {
+.button .test-link {
             position: absolute;
             width: 152px;
-            height: 30px;
-            left: 724px;
-            top: 440px;
+                height: 30px;
+                left: 700px;
+                top: 440px;
             background: #2196F3;
             cursor: pointer;
     
@@ -74,7 +72,7 @@ body {
                 border-radius: 4px;
         }
     
- .test-link {
+.test-link {
             position: absolute;
             width: 216px;
             height: 50px;
@@ -82,10 +80,8 @@ body {
             top: 430px;
             color:#FFFFFF;
     
-            background: #2196F3;
-            box-shadow: 0px 4px 4px #2196F3;
-            border-radius: 4px;
-        }
+            background: #2196F3;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                border-radius: 4px;}
  
 
 .header-logo span{
@@ -143,8 +139,11 @@ a.logo{
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-    
         color: #212121;} 
+
+
+
+
  .h3{position: absolute;
         width: 270px;
         height: 16px;
