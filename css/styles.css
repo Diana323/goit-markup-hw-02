@@ -14,16 +14,30 @@ body {
     color: var(--main-color);}
 
 .page-title{
-    background-color:#2F303A}
+    background-color:#2F303A;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-.title ,.text-align{
+}
+
+.title { padding-top: 150px;
+      padding-left: 300px;
+      padding-right:300px ;
+      padding-bottom: 100px;
+
     
+    
+    left: 0px;
+    top: 80px;
+
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         /* or 136% */
+        border: 0px solid; color: #2F303A;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -56,23 +70,34 @@ background: #2196F3;
             font-style: normal;
             font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.87;
     
+        letter-spacing: 0.06em;
     
-            display: flex;
-            
-            text-align: center;
-            letter-spacing: 0.06em;
-    
-            color: #FFFFFF;}
+    width: 152px;
+    height: 30px;
+   left: 724px;
+    top: 440px; 
+  
+      
+       color: #FFFFFF;}
           
-          
+     /* --кнопка замовити послугу------------------------*/
 .test-link {
+       text-align: center;
+margin-bottom: 100px;
+
+    background: #2196F3;
+    
+    border-radius: 4px;
+
             width: 216px;
             height: 50px;
-            left: 692px;
+           left: 692px;
             top: 430px;
-            color:#FFFFFF;
+
+            color: #FFFFFF;
+            font-family: 'Roboto';
           font-weight: 700;
             background: #2196F3;}
             
@@ -182,7 +207,11 @@ a.logo{     font-size: 26px;
        line-height: 16px;
        letter-spacing: 0.03em;
        text-transform: uppercase;
-       color: #212121;}
+       color: #212121;
+
+
+
+    }
 
  .h3{position: absolute;
         width: 270px;
