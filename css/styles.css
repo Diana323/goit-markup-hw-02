@@ -1,35 +1,48 @@
 :root {
     --main-color: #212121;
-    --color: #2196F3;
-    --color: #FFFFFF;}
+   --color-grey---: #2F303A;
+    --color-sky-: #2196F3;
+    --color-milk-: #FFFFFF;}
 body {
     font-family:'Roboto', sans-serif;} 
-     .body {
+
+.body {
             font-family: sans-serif;
             background-color: #F5F5F5;
         }
 .dec-none{
     text-decoration: none;
-    color: var(--main-color);}
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 500;
+}
 
-.page-title{
+.page-title-footer{
     background-color:#2F303A;
-    
+          
     letter-spacing: 0.06em;
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     
 }
+
+
+.page-title{
+    
+   margin-left: 0px;
+   margin-top: 80px;
+
+    background: #2F303A;}
 
 .title {padding-top: 150px;
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 100px;
 
-        font-family: 'Roboto';
-        font-style: normal;
+    
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -40,7 +53,7 @@ body {
         color: #FFFFFF;}
 
 
- .section button{
+ .section-se .bt{
             color: #000000;
             width: 103px;
             height: 38px;
@@ -50,8 +63,8 @@ body {
             background-color: #F5F4FA;
             }
         
-.section button:focus,
- .section button:hover {
+.bt:focus,
+ .bt:hover {
    color: #FFFFFF;
 background: #2196F3;
                 }
@@ -153,13 +166,7 @@ a.logo{     font-size: 26px;
 .nav :hover,a.nav
            {color: #2196F3;}
 
-.section>h1 {
-    display: none;
-}
 
-.section>h2 {
-    display: none;
-}
 .ul{text-decoration: none; list-style: none; }
 .visually-hidden {
         position: absolute;
@@ -174,19 +181,17 @@ a.logo{     font-size: 26px;
         margin: -1px;}
 
 .section-hh{font-family: 'Roboto';
-        font-style: normal;
+        
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
-        text-align: center;
         letter-spacing: 0.03em;
         color: #212121;} 
 .section-hhh{
        font-family: 'Roboto';
-       font-style: normal;
        font-weight: 700;
        font-size: 14px;
-       line-height: 16px;
+       line-height: 1.14;
        letter-spacing: 0.03em;
        text-transform: uppercase;
        color: #212121;
@@ -195,14 +200,7 @@ a.logo{     font-size: 26px;
 
     }
 
- .h3{
-        width: 270px;
-        height: 16px;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;}
+
 
  .p{
          font-family: 'Roboto';
@@ -232,7 +230,7 @@ a.logo{     font-size: 26px;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
     /* identical to box height */
 
         letter-spacing: 0.03em;
