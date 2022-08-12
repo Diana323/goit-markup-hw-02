@@ -30,7 +30,8 @@ body {
 }
 
 
-.page-title{width: 1600px;
+.page-title{
+    width: 1600px;
     height: 600px;
     text-transform: uppercase;
    
@@ -90,7 +91,7 @@ background: #2196F3;
     top: 440px; 
   
       
-       color: #FFFFFF;}
+       color: var(--color-milk-)}
           
      /* --кнопка замовити послугу------------------------*/
 .test-link {
@@ -102,7 +103,7 @@ background: #2196F3;
         border-radius: 4px;
 
 
-            color: #FFFFFF;
+            color: var(--color-milk-)
             font-family: 'Roboto';
             font-size: 16px;
           font-weight: 700;
@@ -174,7 +175,8 @@ a.logo{     font-size: 26px;
            {color: #2196F3;}
 
 
-.ul{text-decoration: none; list-style: none; }
+
+
 .visually-hidden {
         position: absolute;
         white-space: nowrap;
@@ -202,9 +204,6 @@ a.logo{     font-size: 26px;
        letter-spacing: 0.03em;
        text-transform: uppercase;
        color: #212121;
-
-
-
     }
 
 

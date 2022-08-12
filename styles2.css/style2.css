@@ -1,0 +1,12 @@
+:root{ 
+
+}
+.body{color: aquamarine;
+    background-color: rgb(135, 252, 252);
+}
+.list-li{ text-decoration: none;
+    list-style: none;
+} 
+
+h1 {background-color: rgba(8, 69, 78, 0.059);
+}
