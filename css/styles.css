@@ -7,7 +7,7 @@ body {
     font-family:'Roboto', sans-serif;} 
 
 .body {
-            font-family: sans-serif;
+           
             background-color: #F5F5F5;
         }
 .dec-none{
@@ -76,38 +76,31 @@ background: #2196F3;
 .button .test-link {
            
             background: #2196F3;
-            cursor: pointer;
-    
-            font-family:'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.87;
 
-        letter-spacing: 0.06em;
-    
-    width: 152px;
-    height: 30px;
-   left: 724px;
-    top: 440px; 
-  
-      
-       color: var(--color-milk-)}
-          
+            cursor: pointer;
+           
+            font-family:'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            line-height: 1.87;
+        color: var(--color-milk-) }
+                  
      /* --кнопка замовити послугу------------------------*/
 .test-link {
-    width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-
-
-            color: var(--color-milk-)
-            font-family: 'Roboto';
-            font-size: 16px;
-          font-weight: 700;
-            background: #2196F3;}
+    border: none;
+        width: 216px;
+            height: 50px;
+            left: 692px;
+        font-size: 16px;  top: 430px;
+      font-weight: 700;
+      background: #2196F3;
+        color: var(--color-milk-)
+      
+       
+      
+       
+     }
             
  .bt{
     width: 112px;
@@ -174,7 +167,16 @@ a.logo{     font-size: 26px;
 .nav :hover,a.nav
            {color: #2196F3;}
 
+.ul {
+list-style: none;
+text-decoration: none;
+}
 
+.div-text{
+    display: flex;
+    font-display: ;
+
+}
 
 
 .visually-hidden {
