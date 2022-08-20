@@ -30,7 +30,7 @@ body {
 }
 
 
-.page-title{
+.section-main{
     width: 1600px;
     height: 600px;
     text-transform: uppercase;
@@ -43,7 +43,7 @@ text-align: center;
 
 
 }
-.title {padding-top: 150px;
+.hero{padding-top: 150px;
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 100px;
@@ -87,7 +87,7 @@ background: #2196F3;
         color: var(--color-milk-) }
                   
      /* --кнопка замовити послугу------------------------*/
-.test-link {
+.button-logo{
     border: none;
         width: 216px;
             height: 50px;
@@ -129,13 +129,15 @@ background: #2196F3;
             font-weight: 700;
             color: #000000;}
 
-.logo span {font-size: 26px;
-            line-height: 1.19;
+.logo span {
+    font-size: 26px;
+    line-height: 1.19;
     /* identical to box height */
-             letter-spacing: 0.03em;
-             color: #2196F3;
-            font-weight: 700;
-            font-family: 'Raleway';}
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
 
 .footer-logo{font-family:'Raleway';
              color: #FFFFFF;
