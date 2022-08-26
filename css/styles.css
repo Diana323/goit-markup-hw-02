@@ -236,12 +236,10 @@ color: #757575;
 /*  */
 .list-photo{
 display: flex;
-justify-content: space-around;
-flex-direction:row;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
-.div2{
-    
-    margin: 30px;
+
 }
 /*  */
 .wrapper2{
