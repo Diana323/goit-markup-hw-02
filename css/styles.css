@@ -138,11 +138,6 @@ display: flex;
     justify-content: space-around;
     font-weight: 500;
 }
-.header-hpp{
-    
-}
-
-
 
 .header-logo span{
            font-size: 26px;
@@ -240,7 +235,7 @@ justify-content: space-evenly;
 flex-wrap: wrap;
 }
 
-}
+
 /*  */
 .wrapper2{
     display: flex;
