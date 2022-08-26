@@ -7,15 +7,14 @@ body {
     font-family:'Roboto', sans-serif;} 
 
 .body {
-           
-            background-color: #F5F5F5;
+    background-color: #F5F5F5;
         }
 .dec-none{
     text-decoration: none;
     color: var(--main-color);
     font-size: 14px;
-    line-height: 1.71;
-    font-weight: 400;
+    line-height: 1.17;
+    font-weight: 500px;
     
 }
 
@@ -57,14 +56,19 @@ text-align: center;
 
 
  .section-se .bt{
-            color: #000000;
-            width: 103px;
-            height: 38px;
-            left: 846px;
-            top: 174px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
         
+            letter-spacing: 0.03em;
+        
+            color: #212121;
             background-color: #F5F4FA;
             }
+            
+               
         
 .bt:focus,
  .bt:hover {
@@ -89,35 +93,55 @@ background: #2196F3;
      /* --кнопка замовити послугу------------------------*/
 .button-logo{
     border: none;
+    border-radius: 4px;
         width: 216px;
             height: 50px;
             left: 692px;
         font-size: 16px;  top: 430px;
       font-weight: 700;
+font-family: 'Roboto' sans-serif;
+    font-style: normal;
       background: #2196F3;
         color: var(--color-milk-)
-      
-       
-      
-       
+   
      }
-            
- .bt{
-    width: 112px;
-    height: 38px;
-    left: 726px;
-    top: 174px;
-    background-color: #F5F4FA;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.16;
-    /* identical to box height, or 162% */
-    border: none;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-    color: #212121;}
+
+
+.bt {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+ width: 112px;
+ height: 38px;
+ left: 726px;
+ top: 174px;
+ background-color: #F5F4FA;
+ font-family: 'Roboto' sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.16;
+ /* identical to box height, or 162% */
+ border: none;
+ 
+ letter-spacing: 0.03em;
+ border-radius: 4px;
+margin-left: 10px;
+ color: #212121;
+ 
+   
+}
+.header-hp{
+display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+}
+.header-hpp{
+    
+}
+
 
 
 .header-logo span{
@@ -164,32 +188,32 @@ a.logo{     font-size: 26px;
         }
 
 
-.nav.navigation
+.navigation
          {color: #212121;
-         display: flex;
-         
-    
-            
-       
-        }
-.nav{ 
-
         
-    }
+        }
+
 .navigation2{
     display: flex;
     justify-content:flex-end;
-
 }
+.address-nav:focus,
+.address-nav:hover {
+    color: var(--color-sky-);
+}
+.address-nav{
+    font-size: 14px;
+    font-weight: 500;
+text-decoration: none;
+color: #757575;
+}
+
 .nav :focus,
-.nav :hover,a.nav
-           {color: #2196F3;
+.nav :hover,a.nav{
+    color: #2196F3;
             
        }
-  .cont-list-style{
-    margin-left: 10px;
-  }
-
+       
 .ul {
     list-style: none;
     text-decoration: none;
@@ -198,7 +222,7 @@ a.logo{     font-size: 26px;
 .wrapper{
     display: flex;
     justify-content: space-around;
-   
+
 }
 .block {
     display: flex;
@@ -212,7 +236,8 @@ a.logo{     font-size: 26px;
 display:flex;
 }
 .div2{
-    margin-left: 15px;
+    
+    margin: 30px;
 }
 /*  */
 .wrapper2{
@@ -222,6 +247,7 @@ display:flex;
 }
 .div-wraper{
     justify-content:space-between;
+    
 }
 
 .visually-hidden {
@@ -260,7 +286,7 @@ display:flex;
   }
 
  .p{
-         font-family: 'Roboto';
+    
         
          font-weight: 400;
          font-size: 14px;
@@ -298,4 +324,24 @@ display:flex;
     font-weight: 500;
         font-size: 16px;
         line-height: 19px;
+}
+.photo-list-wrapper2{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+.photo-list-wrap{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
 }
